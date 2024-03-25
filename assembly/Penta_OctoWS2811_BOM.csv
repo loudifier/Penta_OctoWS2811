@@ -1,0 +1,13 @@
+Designator,Qty,Description,Manufacturer Part Number,Manufacturer,Supplier,DNP
+"C1,C2,C5,C6,C7,C9",6,CAP 0.1uF 0603 50V X7R 10%,CC0603KRX7R9BB104,Yageo,LCSC,
+"C3,C4,C8",3,CAP 10uF 0603 25V X5R 20%,CL10A106MA8NRNC,Samsung,LCSC,
+D1,1,"BAT54C dual Schottky barrier diode, common cathode","BAT54C,215",Nexperia,LCSC,
+J1,1,"3 pin screw terminal block, 5.08mm pitch",DB127V-5.08-3P-GN-S,Dorabo,LCSC,
+"J2,J3,J4,J5,J6,J7,J8,J9,J10,J11",10,"RJ45 jack, 8P8C, unshielded",HC-RJ45-5622-1-6,HCTL,LCSC,
+J12,1,RJ45 magjack,J1B1211CCD ,WIZnet,LCSC,
+J13,1,2x3 2mm header receptacle,ZX-PM2.0-2-3PY,Megastar,LCSC,
+"J14,J15",2,1x24 2.54mm header receptacle,X6511FV-24-C85D32,Megastar,,
+J16,1,Single pin 2.54mm header receptacle (use single segment from breakaway strip),,,,
+"R1,R2,R3,R4,R5,R6,R7,R8,R9,R10,R11,R12,R13,R14,R15,R16,R17,R18,R19,R20,R21,R22,R23,R24,R25,R26,R27,R28,R29,R30,R31,R32,R33,R34,R35,R36,R37,R38,R39,R40,R41",41,RES 100R 0603 1/16W 1%,0603WAF1000T5E,Uniroyal,LCSC,
+"U1,U2,U5,U6,U7",5,"74HCT245 Octal BUS Transceiver, 3-State outputs, TTL input","74HCT245D,653",Nexperia,LCSC,
+U3,1,"NCP1117 1A Low drop-out regulator, Fixed 5.0V, SOT-223",NCP1117LPST50T3G,onsemi,LCSC,

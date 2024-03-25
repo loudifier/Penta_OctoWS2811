@@ -3242,15 +3242,15 @@
 				)
 			)
 		)
-		(symbol "Diode:BAT54S"
+		(symbol "Diode:BAT54C"
 			(pin_names
-				(offset 0)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "D"
-				(at 2.54 -5.08 0)
+				(at 0.635 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3258,7 +3258,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BAT54S"
+			(property "Value" "BAT54C"
 				(at -6.35 3.175 0)
 				(effects
 					(font
@@ -3277,8 +3277,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
-				(at -3.048 0 0)
+			(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
+				(at -2.032 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3286,7 +3286,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
+			(property "Description" "dual schottky barrier diode, common cathode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3295,7 +3295,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "schottky diode"
+			(property "ki_keywords" "schottky diode common cathode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3313,67 +3313,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BAT54S_0_1"
-				(polyline
-					(pts
-						(xy -3.81 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.175 -1.27) (xy -3.175 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -3.175 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -1.905 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "BAT54C_0_1"
 				(polyline
 					(pts
 						(xy -1.905 0) (xy 1.905 0)
@@ -3400,7 +3340,7 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 0) (xy 3.81 0)
+						(xy -1.27 -1.27) (xy -0.635 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -3412,7 +3352,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.175 -1.27) (xy 3.175 -1.016)
+						(xy -1.27 0) (xy -3.81 0)
 					)
 					(stroke
 						(width 0)
@@ -3424,7 +3364,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 -1.27) (xy 3.175 -1.27)
+						(xy -1.27 1.27) (xy -1.905 1.27)
 					)
 					(stroke
 						(width 0)
@@ -3436,7 +3376,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 -1.27) (xy 3.81 1.27)
+						(xy -1.27 1.27) (xy -1.27 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -3448,7 +3388,7 @@
 				)
 				(polyline
 					(pts
-						(xy 3.81 1.27) (xy 4.445 1.27)
+						(xy -0.635 -1.27) (xy -0.635 -1.016)
 					)
 					(stroke
 						(width 0)
@@ -3460,7 +3400,7 @@
 				)
 				(polyline
 					(pts
-						(xy 4.445 1.27) (xy 4.445 1.016)
+						(xy 0.635 -1.27) (xy 0.635 -1.016)
 					)
 					(stroke
 						(width 0)
@@ -3472,7 +3412,7 @@
 				)
 				(polyline
 					(pts
-						(xy -4.445 1.27) (xy -4.445 -1.27) (xy -2.54 0) (xy -4.445 1.27)
+						(xy 1.27 -1.27) (xy 0.635 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -3484,7 +3424,67 @@
 				)
 				(polyline
 					(pts
-						(xy 1.905 1.27) (xy 1.905 -1.27) (xy 3.81 0) (xy 1.905 1.27)
+						(xy 1.27 1.27) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.905 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 1.27) (xy 1.905 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.175 -1.27) (xy -3.175 1.27) (xy -1.27 0) (xy -3.175 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 -1.27) (xy 3.175 1.27) (xy 1.27 0) (xy 3.175 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -3506,11 +3506,11 @@
 					)
 				)
 			)
-			(symbol "BAT54S_1_1"
+			(symbol "BAT54C_1_1"
 				(pin passive line
 					(at -7.62 0 0)
 					(length 3.81)
-					(name "A"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3528,7 +3528,7 @@
 				(pin passive line
 					(at 7.62 0 180)
 					(length 3.81)
-					(name "K"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3546,7 +3546,7 @@
 				(pin passive line
 					(at 0 -5.08 90)
 					(length 5.08)
-					(name "COM"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6000,12 +6000,6 @@
 		(uuid "05f2a368-66a9-44da-8c95-4600dbac1c72")
 	)
 	(junction
-		(at 240.03 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "131b0202-de65-4722-b774-d3a03531907c")
-	)
-	(junction
 		(at 330.2 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6046,6 +6040,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2408535b-21fa-48bd-ba69-f548aa888818")
+	)
+	(junction
+		(at 241.3 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "29e93eee-dba0-4721-a1ea-1ddc2b11d6ba")
 	)
 	(junction
 		(at 330.2 58.42)
@@ -6294,6 +6294,12 @@
 		(uuid "be3f16dc-9e99-492d-b233-7731a5145f25")
 	)
 	(junction
+		(at 241.3 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be774c3f-580c-42e4-9a20-9db09a970789")
+	)
+	(junction
 		(at 401.32 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6310,6 +6316,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb2c107d-0e0d-42c2-869d-ac59e563a495")
+	)
+	(junction
+		(at 233.68 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd48558b-5b7d-4b4e-8162-f2f59caf1174")
 	)
 	(junction
 		(at 123.19 33.02)
@@ -6759,7 +6771,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 35.56) (xy 250.19 35.56)
+			(xy 252.73 34.29) (xy 251.46 34.29)
 		)
 		(stroke
 			(width 0)
@@ -7689,7 +7701,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 38.1) (xy 251.46 35.56)
+			(xy 252.73 36.83) (xy 252.73 34.29)
 		)
 		(stroke
 			(width 0)
@@ -7826,16 +7838,6 @@
 			(type default)
 		)
 		(uuid "39a1d4d9-c982-4a9c-8674-8ee0b80f1cd2")
-	)
-	(wire
-		(pts
-			(xy 240.03 52.07) (xy 240.03 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ae39952-8624-4201-bf53-9c1878e6f1e7")
 	)
 	(wire
 		(pts
@@ -8309,7 +8311,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 35.56) (xy 242.57 35.56)
+			(xy 241.3 34.29) (xy 243.84 34.29)
 		)
 		(stroke
 			(width 0)
@@ -9119,6 +9121,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 34.29) (xy 241.3 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "745f3d0f-3e1c-4478-b3c4-2d3e15cac931")
+	)
+	(wire
+		(pts
 			(xy 158.75 41.91) (xy 158.75 57.15)
 		)
 		(stroke
@@ -9176,6 +9188,16 @@
 			(type default)
 		)
 		(uuid "782758a7-f376-4bc1-a9b7-cdc991e7118b")
+	)
+	(wire
+		(pts
+			(xy 222.25 22.86) (xy 233.68 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78f59a51-35df-4721-a981-18dbcdad9214")
 	)
 	(wire
 		(pts
@@ -9689,7 +9711,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 26.67) (xy 229.87 30.48)
+			(xy 241.3 25.4) (xy 241.3 31.75)
 		)
 		(stroke
 			(width 0)
@@ -10229,7 +10251,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 52.07) (xy 240.03 52.07)
+			(xy 227.33 52.07) (xy 241.3 52.07)
 		)
 		(stroke
 			(width 0)
@@ -10419,16 +10441,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 35.56) (xy 222.25 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac5a9e5f-490f-407b-aa76-95fea52b29ce")
-	)
-	(wire
-		(pts
 			(xy 72.39 246.38) (xy 83.82 246.38)
 		)
 		(stroke
@@ -10536,6 +10548,16 @@
 			(type default)
 		)
 		(uuid "b27d8f48-ce49-4691-94ce-b5d3d161a780")
+	)
+	(wire
+		(pts
+			(xy 241.3 31.75) (xy 241.3 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2fba22e-39d8-408c-8cc0-adffa4e7567f")
 	)
 	(wire
 		(pts
@@ -10709,6 +10731,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 22.86) (xy 233.68 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcf5f170-01bb-40e3-af4f-2039b60b8b5e")
+	)
+	(wire
+		(pts
 			(xy 181.61 179.07) (xy 181.61 180.34)
 		)
 		(stroke
@@ -10746,6 +10778,16 @@
 			(type default)
 		)
 		(uuid "be0bc0c7-2486-4320-9739-e302b3c5f2f8")
+	)
+	(wire
+		(pts
+			(xy 233.68 39.37) (xy 233.68 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be26e8b5-2f21-4b41-9f99-70c5dc520f70")
 	)
 	(wire
 		(pts
@@ -10969,6 +11011,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 41.91) (xy 222.25 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5d2f6c8-1442-4f85-8197-b7624acff692")
+	)
+	(wire
+		(pts
 			(xy 247.65 186.69) (xy 247.65 193.04)
 		)
 		(stroke
@@ -11166,26 +11218,6 @@
 			(type default)
 		)
 		(uuid "d0c7793a-ace3-43bb-b30d-e9ede36f4907")
-	)
-	(wire
-		(pts
-			(xy 220.98 41.91) (xy 220.98 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d16854a3-ecd6-4936-9ebe-f661324b7ae5")
-	)
-	(wire
-		(pts
-			(xy 237.49 35.56) (xy 240.03 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d179c30d-cfae-42a1-8715-e3a4ddfe8b41")
 	)
 	(wire
 		(pts
@@ -11499,16 +11531,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 41.91) (xy 220.98 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de986ee0-34eb-447c-82c1-f775e24e39b4")
-	)
-	(wire
-		(pts
 			(xy 373.38 90.17) (xy 383.54 90.17)
 		)
 		(stroke
@@ -11666,6 +11688,16 @@
 			(type default)
 		)
 		(uuid "e5a10994-3376-41dd-8f03-84a92e227f65")
+	)
+	(wire
+		(pts
+			(xy 238.76 31.75) (xy 241.3 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e60c83f0-bfc4-45af-9e14-20a38fadf9f9")
 	)
 	(wire
 		(pts
@@ -12049,6 +12081,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 41.91) (xy 233.68 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe68878a-1410-47df-b700-27e6e82ed30c")
+	)
+	(wire
+		(pts
 			(xy 256.54 107.95) (xy 256.54 97.79)
 		)
 		(stroke
@@ -12127,9 +12169,9 @@
 		)
 		(uuid "ff6c74d5-723a-4605-8776-705aa06de0c8")
 	)
-	(text "Cutting VUSB jumper and installing\nVUSB pin allows Teensy and board to\nbe powered from USB -or- V_LED"
+	(text "Cutting VUSB jumper and installing\nVUSB pin allows Teensy and board to\nbe powered from USB -or- VLED"
 		(exclude_from_sim no)
-		(at 178.054 31.75 0)
+		(at 182.88 31.242 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12225,7 +12267,7 @@
 		)
 		(uuid "eb2a5d36-dc5f-4087-a4ae-cd9fa14594f8")
 	)
-	(text "V_LED up to 12V (e.g. for use with WS2815 LEDs)\n\nIf using 5V LEDs (WS2812b), bridge JP3 to power\nTeensy directly from 5V supply"
+	(text "VLED up to 12V (e.g. for use with WS2815 LEDs)\n\nIf using 5V LEDs (WS2812b), bridge JP3 to power\nTeensy directly from 5V supply"
 		(exclude_from_sim no)
 		(at 93.472 161.29 0)
 		(effects
@@ -16861,7 +16903,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 251.46 38.1 0)
+		(at 252.73 36.83 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16871,7 +16913,7 @@
 		(fields_autoplaced yes)
 		(uuid "57e5da45-1122-43a2-8d2f-f909916694e8")
 		(property "Reference" "#PWR029"
-			(at 251.46 44.45 0)
+			(at 252.73 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16880,7 +16922,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 251.46 43.18 0)
+			(at 252.73 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16889,7 +16931,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 251.46 38.1 0)
+			(at 252.73 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16898,7 +16940,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 38.1 0)
+			(at 252.73 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16907,7 +16949,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 38.1 0)
+			(at 252.73 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16929,7 +16971,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 246.38 35.56 270)
+		(at 247.65 34.29 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16937,7 +16979,7 @@
 		(dnp no)
 		(uuid "5e15fdaa-9d7f-4d8c-8020-828ed0b281f8")
 		(property "Reference" "C8"
-			(at 247.65 28.448 90)
+			(at 248.92 27.178 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16946,7 +16988,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 248.92 30.988 90)
+			(at 250.19 29.718 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16955,7 +16997,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 242.57 36.5252 0)
+			(at 243.84 35.2552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16964,7 +17006,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 35.56 0)
+			(at 247.65 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16973,7 +17015,7 @@
 			)
 		)
 		(property "Description" "CAP 10uF 0603 25V X5R 20%"
-			(at 246.38 35.56 0)
+			(at 247.65 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16982,7 +17024,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CL10A106MA8NRNC"
-			(at 246.38 35.56 0)
+			(at 247.65 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16991,7 +17033,7 @@
 			)
 		)
 		(property "Supplier" "LCSC"
-			(at 246.38 35.56 0)
+			(at 247.65 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17000,7 +17042,7 @@
 			)
 		)
 		(property "Manufacturer" "Samsung"
-			(at 246.38 35.56 0)
+			(at 247.65 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18130,107 +18172,6 @@
 			(project "Penta_OctoWS2811"
 				(path "/ba155590-cd17-4dd9-90fb-15a4a9d14f33"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:BAT54S")
-		(at 229.87 35.56 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "79550280-44c7-4276-96f6-f8d24fb089bc")
-		(property "Reference" "D1"
-			(at 219.964 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAT54S"
-			(at 219.964 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 231.775 38.735 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds11005.pdf"
-			(at 226.822 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Vr 30V, If 200mA, Dual schottky barrier diode, in series, SOT-323"
-			(at 229.87 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "MDD"
-			(at 229.87 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" " BAT54S"
-			(at 229.87 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier" "LCSC"
-			(at 229.87 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "6ee1a640-963c-49bb-b713-8ce1149b827d")
-		)
-		(pin "1"
-			(uuid "8b36f242-3918-4b36-a867-7172d861964c")
-		)
-		(pin "2"
-			(uuid "8112aa43-9d0c-4469-8cab-c67d772a4d73")
-		)
-		(instances
-			(project "Penta_OctoWS2811"
-				(path "/ba155590-cd17-4dd9-90fb-15a4a9d14f33"
-					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -19792,6 +19733,107 @@
 			(project "Penta_OctoWS2811"
 				(path "/ba155590-cd17-4dd9-90fb-15a4a9d14f33"
 					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54C")
+		(at 233.68 31.75 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "984e4dbc-a1d8-4a48-83c6-1372ce4e8a24")
+		(property "Reference" "D1"
+			(at 231.394 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54C"
+			(at 230.886 33.528 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 230.505 33.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.diodes.com/_files/datasheets/ds11005.pdf"
+			(at 233.68 29.718 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "BAT54C dual Schottky barrier diode, common cathode"
+			(at 233.68 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Nexperia"
+			(at 233.68 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "BAT54C,215"
+			(at 233.68 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 233.68 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "1e035d25-c9bc-40ac-8f3f-4353271ee308")
+		)
+		(pin "2"
+			(uuid "1053700e-2840-4bb0-9eab-f87d25dfebc4")
+		)
+		(pin "1"
+			(uuid "e783d25f-125c-46b2-b033-4c5ec562123d")
+		)
+		(instances
+			(project "Penta_OctoWS2811"
+				(path "/ba155590-cd17-4dd9-90fb-15a4a9d14f33"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -24255,7 +24297,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 229.87 26.67 0)
+		(at 241.3 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24264,7 +24306,7 @@
 		(fields_autoplaced yes)
 		(uuid "f56ca6a6-b32c-4dbc-8886-11bbb62168c2")
 		(property "Reference" "#PWR014"
-			(at 229.87 30.48 0)
+			(at 241.3 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24273,7 +24315,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 229.87 21.59 0)
+			(at 241.3 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24281,7 +24323,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 26.67 0)
+			(at 241.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24290,7 +24332,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 26.67 0)
+			(at 241.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24299,7 +24341,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 229.87 26.67 0)
+			(at 241.3 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24835,7 +24877,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fd17220c-d165-424d-ab0d-06c88c591439")
 		(property "Reference" "#PWR05"
 			(at 147.32 168.91 0)
@@ -24846,12 +24887,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "V_LED"
-			(at 147.32 160.02 0)
+		(property "Value" "VLED"
+			(at 145.034 160.274 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
